@@ -1,0 +1,29 @@
+
+.bg-color{
+  background-color:$colorBg
+}
+
+
+.section-inner{
+  margin: 0 auto;
+  width: calc(100% - 6rem);
+}
+
+.container,.section-inner {
+  @include min-screen(600px) {
+    width: calc(100% - 10rem);
+  }
+  @include min-screen(1000px) {
+    width: 100%;
+  }
+}
+
+.screen-reader-text{
+  clip: rect( .1rem, .1rem, .1rem, .1rem );
+  height: .1rem;
+  overflow: hidden;
+  position: absolute !important;
+  width: .1rem;
+}
+
+
