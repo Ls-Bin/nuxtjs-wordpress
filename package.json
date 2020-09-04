@@ -21,7 +21,7 @@
     "dayjs": "^1.8.10",
     "mocha": "^5.2.0",
     "mocha-webpack": "^1.1.0",
-    "node-sass": "^4.11.0",
+    "node-sass": "^4.13.1",
     "nuxt": "^2.0.0",
     "sass-loader": "^7.1.0"
   },
